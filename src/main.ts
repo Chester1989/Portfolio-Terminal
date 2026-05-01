@@ -9,6 +9,7 @@ const initTerminal = async () => {
   await printLine("whoami", container, "command");
   await printLine(`${INFO_BIO.nombre} - ${INFO_BIO.rol}`, container, "response");
   await printLine(`Ubicación: ${INFO_BIO.ubicacion}`, container, "response");
+  await printLine(`Skills: ${INFO_BIO.skills.join(", ")}`, container, "response");
   
   await new Promise(resolve => setTimeout(resolve, 500));
 

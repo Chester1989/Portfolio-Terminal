@@ -24,10 +24,10 @@ export const MIS_PROYECTOS: Proyecto[] = [
 ];
 
 export const INFO_BIO = {
-  nombre: "Chester",
+  nombre: "Alejandro González",
   rol: "Fullstack Developer en formación",
   ubicacion: "Tijuana, México",
-  skills: ["JavaScript", "TypeScript", "Node.js", "MERN Stack"]
+  skills: ["HTML/CSS","JavaScript", "TypeScript", "Node.js", "React", "MongoDB", "Bootstrap"]
 };
 
 // Añade esto a tu archivo de datos

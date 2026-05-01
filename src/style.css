@@ -61,7 +61,7 @@ body {
 }
 
 .terminal-line.command {
-  color: var(--prompt-color); /* El azul/cyan que definimos */
+  color: var(--prompt-color); /* azul/cyan */
   font-weight: bold;
 }
 
